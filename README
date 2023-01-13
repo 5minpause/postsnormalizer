@@ -1,0 +1,6 @@
+# Posts Normalizer
+
+A small Ruby script thingy I wrote to add `permalinks` to the frontmatter of all markdown posts living in subfolders inside a posts folder.
+I used this to migrate my GatsbyJS site to [micro.blog](https://micro.blog).
+Micro.blog expects a ZIP file with markdown files. If you want to have redirects set up to your old posts, you will need permalinks.
+My old site had posts like holgerfrohloff.de/power-laws. Byt adding a permalink `permalink: "/power-laws"` to the frontmatter, Micro.blog will setup redirects properly.
