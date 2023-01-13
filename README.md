@@ -16,4 +16,5 @@ irb(main):001:0> require_relative "./lib/normalizer.rb"
 irb(main):002:0> Normalizer.for_path("path/to/your/gatsby-site/content/posts")
 irb(main):003:0> exit
 ```
+
 This will put lots of markdown files into the `path/to/your/gatsby-site/content/posts` folder. All you need to do now is ZIP them and upload/import to your Micro.blog.
